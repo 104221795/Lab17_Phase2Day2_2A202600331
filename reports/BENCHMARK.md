@@ -139,4 +139,4 @@ Notes : Chatbot thường không có persistent memory.
 System của tôi có 4 loại memory riêng biệt, có router để chọn đúng memory, và có context management để tối ưu token usage.
 Dự định tôi không dùng LLM thật để đơn giản hóa, đảm bảo benchmark deterministic và reproducible.
 Architecture đã sẵn sàng để plug-in LLM như Ollama hoặc OpenAI.
-Em dùng keyword-based fallback để đảm bảo stability, nhưng interface đã thiết kế để thay bằng vector DB như Chroma hoặc FAISS.
+Tôi dùng keyword-based fallback để đảm bảo stability, nhưng interface đã thiết kế để thay bằng vector DB như Chroma hoặc FAISS.
