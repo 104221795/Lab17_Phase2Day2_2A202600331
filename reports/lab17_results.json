@@ -1,0 +1,384 @@
+{
+  "no_memory": [
+    {
+      "case_id": "case_01_profile_allergy_conflict",
+      "scenario": "Allergy conflict update",
+      "category": "profile recall + conflict update",
+      "use_memory": false,
+      "response": "Không biết / insufficient context.",
+      "expected_keywords": [
+        "đậu nành"
+      ],
+      "response_relevance": 0.0,
+      "memory_hit_rate": 0.0,
+      "context_utilization": 0.0,
+      "token_efficiency": 0.14,
+      "context_tokens": 78,
+      "retrieved_memory_count": 0,
+      "evicted_count": 0,
+      "pass": false
+    },
+    {
+      "case_id": "case_02_profile_response_preference",
+      "scenario": "Recall response style preference",
+      "category": "profile recall",
+      "use_memory": false,
+      "response": "Không biết / insufficient context.",
+      "expected_keywords": [
+        "brief"
+      ],
+      "response_relevance": 0.0,
+      "memory_hit_rate": 0.0,
+      "context_utilization": 0.0,
+      "token_efficiency": 0.19,
+      "context_tokens": 77,
+      "retrieved_memory_count": 0,
+      "evicted_count": 0,
+      "pass": false
+    },
+    {
+      "case_id": "case_03_profile_name_recall_after_noise",
+      "scenario": "Recall user name after unrelated turns",
+      "category": "profile recall",
+      "use_memory": false,
+      "response": "Không biết / insufficient context.",
+      "expected_keywords": [
+        "Linh"
+      ],
+      "response_relevance": 0.0,
+      "memory_hit_rate": 0.0,
+      "context_utilization": 0.0,
+      "token_efficiency": 0.1,
+      "context_tokens": 77,
+      "retrieved_memory_count": 0,
+      "evicted_count": 0,
+      "pass": false
+    },
+    {
+      "case_id": "case_04_profile_programming_language",
+      "scenario": "Recall favorite programming language",
+      "category": "profile recall",
+      "use_memory": false,
+      "response": "Không biết / insufficient context.",
+      "expected_keywords": [
+        "Python"
+      ],
+      "response_relevance": 0.0,
+      "memory_hit_rate": 0.0,
+      "context_utilization": 0.0,
+      "token_efficiency": 0.15,
+      "context_tokens": 46,
+      "retrieved_memory_count": 0,
+      "evicted_count": 0,
+      "pass": false
+    },
+    {
+      "case_id": "case_05_episodic_previous_decision",
+      "scenario": "Recall previous architecture decision",
+      "category": "episodic recall",
+      "use_memory": false,
+      "response": "Không biết / insufficient context.",
+      "expected_keywords": [
+        "JSON",
+        "episodic"
+      ],
+      "response_relevance": 0.0,
+      "memory_hit_rate": 0.0,
+      "context_utilization": 0.0,
+      "token_efficiency": 0.22,
+      "context_tokens": 72,
+      "retrieved_memory_count": 0,
+      "evicted_count": 0,
+      "pass": false
+    },
+    {
+      "case_id": "case_06_episodic_debug_lesson",
+      "scenario": "Recall previous debug lesson",
+      "category": "episodic recall",
+      "use_memory": false,
+      "response": "Không biết / insufficient context.",
+      "expected_keywords": [
+        "docker",
+        "service name"
+      ],
+      "response_relevance": 0.0,
+      "memory_hit_rate": 0.0,
+      "context_utilization": 0.0,
+      "token_efficiency": 0.1,
+      "context_tokens": 68,
+      "retrieved_memory_count": 0,
+      "evicted_count": 0,
+      "pass": false
+    },
+    {
+      "case_id": "case_07_semantic_benchmark_retrieval",
+      "scenario": "Semantic retrieval for benchmark requirement",
+      "category": "semantic retrieval",
+      "use_memory": false,
+      "response": "Không biết / insufficient context.",
+      "expected_keywords": [
+        "memory",
+        "without memory",
+        "10"
+      ],
+      "response_relevance": 0.0,
+      "memory_hit_rate": 0.0,
+      "context_utilization": 0.0,
+      "token_efficiency": 0.09,
+      "context_tokens": 55,
+      "retrieved_memory_count": 0,
+      "evicted_count": 0,
+      "pass": false
+    },
+    {
+      "case_id": "case_08_semantic_token_budget",
+      "scenario": "Semantic retrieval for token budget rule",
+      "category": "trim/token budget",
+      "use_memory": false,
+      "response": "Không biết / insufficient context.",
+      "expected_keywords": [
+        "current query",
+        "memory"
+      ],
+      "response_relevance": 0.0,
+      "memory_hit_rate": 0.0,
+      "context_utilization": 0.0,
+      "token_efficiency": 0.13,
+      "context_tokens": 55,
+      "retrieved_memory_count": 0,
+      "evicted_count": 0,
+      "pass": false
+    },
+    {
+      "case_id": "case_09_recent_context",
+      "scenario": "Recent conversation recall",
+      "category": "recent context",
+      "use_memory": false,
+      "response": "Không biết / insufficient context.",
+      "expected_keywords": [
+        "transfer",
+        "data"
+      ],
+      "response_relevance": 0.0,
+      "memory_hit_rate": 0.0,
+      "context_utilization": 0.0,
+      "token_efficiency": 0.39,
+      "context_tokens": 41,
+      "retrieved_memory_count": 0,
+      "evicted_count": 0,
+      "pass": false
+    },
+    {
+      "case_id": "case_10_full_stack_requirement",
+      "scenario": "Semantic recall of full memory stack",
+      "category": "semantic retrieval",
+      "use_memory": false,
+      "response": "Không biết / insufficient context.",
+      "expected_keywords": [
+        "short-term",
+        "profile",
+        "episodic",
+        "semantic"
+      ],
+      "response_relevance": 0.0,
+      "memory_hit_rate": 0.0,
+      "context_utilization": 0.0,
+      "token_efficiency": 0.12,
+      "context_tokens": 57,
+      "retrieved_memory_count": 0,
+      "evicted_count": 0,
+      "pass": false
+    }
+  ],
+  "with_memory": [
+    {
+      "case_id": "case_01_profile_allergy_conflict",
+      "scenario": "Allergy conflict update",
+      "category": "profile recall + conflict update",
+      "use_memory": true,
+      "response": "đậu nành",
+      "expected_keywords": [
+        "đậu nành"
+      ],
+      "response_relevance": 5.0,
+      "memory_hit_rate": 1.0,
+      "context_utilization": 2.0,
+      "token_efficiency": 0.5,
+      "context_tokens": 129,
+      "retrieved_memory_count": 5,
+      "evicted_count": 0,
+      "pass": true
+    },
+    {
+      "case_id": "case_02_profile_response_preference",
+      "scenario": "Recall response style preference",
+      "category": "profile recall",
+      "use_memory": true,
+      "response": "brief",
+      "expected_keywords": [
+        "brief"
+      ],
+      "response_relevance": 5.0,
+      "memory_hit_rate": 1.0,
+      "context_utilization": 0.0,
+      "token_efficiency": 0.53,
+      "context_tokens": 116,
+      "retrieved_memory_count": 5,
+      "evicted_count": 0,
+      "pass": true
+    },
+    {
+      "case_id": "case_03_profile_name_recall_after_noise",
+      "scenario": "Recall user name after unrelated turns",
+      "category": "profile recall",
+      "use_memory": true,
+      "response": "Tên tôi là Linh",
+      "expected_keywords": [
+        "Linh"
+      ],
+      "response_relevance": 5.0,
+      "memory_hit_rate": 1.0,
+      "context_utilization": 5.0,
+      "token_efficiency": 0.36,
+      "context_tokens": 124,
+      "retrieved_memory_count": 5,
+      "evicted_count": 0,
+      "pass": true
+    },
+    {
+      "case_id": "case_04_profile_programming_language",
+      "scenario": "Recall favorite programming language",
+      "category": "profile recall",
+      "use_memory": true,
+      "response": "Python",
+      "expected_keywords": [
+        "Python"
+      ],
+      "response_relevance": 5.0,
+      "memory_hit_rate": 1.0,
+      "context_utilization": 1.25,
+      "token_efficiency": 0.38,
+      "context_tokens": 61,
+      "retrieved_memory_count": 4,
+      "evicted_count": 0,
+      "pass": true
+    },
+    {
+      "case_id": "case_05_episodic_previous_decision",
+      "scenario": "Recall previous architecture decision",
+      "category": "episodic recall",
+      "use_memory": true,
+      "response": "Kết luận: ta chọn JSON làm episodic memory để lưu project events.",
+      "expected_keywords": [
+        "JSON",
+        "episodic"
+      ],
+      "response_relevance": 5.0,
+      "memory_hit_rate": 1.0,
+      "context_utilization": 5.0,
+      "token_efficiency": 0.5,
+      "context_tokens": 139,
+      "retrieved_memory_count": 5,
+      "evicted_count": 0,
+      "pass": true
+    },
+    {
+      "case_id": "case_06_episodic_debug_lesson",
+      "scenario": "Recall previous debug lesson",
+      "category": "episodic recall",
+      "use_memory": true,
+      "response": "Bài học debug: khi chạy Docker Compose thì dùng docker service name thay vì localhost.",
+      "expected_keywords": [
+        "docker",
+        "service name"
+      ],
+      "response_relevance": 5.0,
+      "memory_hit_rate": 1.0,
+      "context_utilization": 5.0,
+      "token_efficiency": 0.51,
+      "context_tokens": 160,
+      "retrieved_memory_count": 5,
+      "evicted_count": 0,
+      "pass": true
+    },
+    {
+      "case_id": "case_07_semantic_benchmark_retrieval",
+      "scenario": "Semantic retrieval for benchmark requirement",
+      "category": "semantic retrieval",
+      "use_memory": true,
+      "response": "Benchmark should compare agents with memory and without memory over 10 multi-turn conversations.",
+      "expected_keywords": [
+        "memory",
+        "without memory",
+        "10"
+      ],
+      "response_relevance": 5.0,
+      "memory_hit_rate": 1.0,
+      "context_utilization": 5.0,
+      "token_efficiency": 0.35,
+      "context_tokens": 89,
+      "retrieved_memory_count": 4,
+      "evicted_count": 0,
+      "pass": true
+    },
+    {
+      "case_id": "case_08_semantic_token_budget",
+      "scenario": "Semantic retrieval for token budget rule",
+      "category": "trim/token budget",
+      "use_memory": true,
+      "response": "keep current query and relevant memory",
+      "expected_keywords": [
+        "current query",
+        "memory"
+      ],
+      "response_relevance": 5.0,
+      "memory_hit_rate": 1.0,
+      "context_utilization": 5.0,
+      "token_efficiency": 0.37,
+      "context_tokens": 86,
+      "retrieved_memory_count": 4,
+      "evicted_count": 0,
+      "pass": true
+    },
+    {
+      "case_id": "case_09_recent_context",
+      "scenario": "Recent conversation recall",
+      "category": "recent context",
+      "use_memory": true,
+      "response": "API chỉ làm nhiệm vụ transfer data.",
+      "expected_keywords": [
+        "transfer",
+        "data"
+      ],
+      "response_relevance": 5.0,
+      "memory_hit_rate": 1.0,
+      "context_utilization": 5.0,
+      "token_efficiency": 0.39,
+      "context_tokens": 41,
+      "retrieved_memory_count": 1,
+      "evicted_count": 0,
+      "pass": true
+    },
+    {
+      "case_id": "case_10_full_stack_requirement",
+      "scenario": "Semantic recall of full memory stack",
+      "category": "semantic retrieval",
+      "use_memory": true,
+      "response": "short-term, profile, episodic, semantic",
+      "expected_keywords": [
+        "short-term",
+        "profile",
+        "episodic",
+        "semantic"
+      ],
+      "response_relevance": 5.0,
+      "memory_hit_rate": 1.0,
+      "context_utilization": 2.5,
+      "token_efficiency": 0.36,
+      "context_tokens": 91,
+      "retrieved_memory_count": 4,
+      "evicted_count": 0,
+      "pass": true
+    }
+  ]
+}

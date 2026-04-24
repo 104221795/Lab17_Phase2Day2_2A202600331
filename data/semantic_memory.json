@@ -1,0 +1,172 @@
+{
+  "user_case_01_profile_allergy_conflict": [
+    {
+      "conversation_id": "case_01_profile_allergy_conflict",
+      "memory_type": "semantic",
+      "text": "Tôi dị ứng sữa bò."
+    },
+    {
+      "conversation_id": "case_01_profile_allergy_conflict",
+      "memory_type": "semantic",
+      "text": "À nhầm, tôi dị ứng đậu nành chứ không phải sữa bò."
+    },
+    {
+      "conversation_id": "case_01_profile_allergy_conflict",
+      "memory_type": "semantic",
+      "text": "Tôi dị ứng gì?"
+    }
+  ],
+  "user_case_02_profile_response_preference": [
+    {
+      "conversation_id": "case_02_profile_response_preference",
+      "memory_type": "semantic",
+      "text": "Tôi thích câu trả lời ngắn."
+    },
+    {
+      "conversation_id": "case_02_profile_response_preference",
+      "memory_type": "semantic",
+      "text": "Sau 5 lượt nữa bạn vẫn cần nhớ preference này."
+    },
+    {
+      "conversation_id": "case_02_profile_response_preference",
+      "memory_type": "semantic",
+      "text": "Bạn nên trả lời theo style nào?"
+    }
+  ],
+  "user_case_03_profile_name_recall_after_noise": [
+    {
+      "conversation_id": "case_03_profile_name_recall_after_noise",
+      "memory_type": "semantic",
+      "text": "Tên tôi là Linh."
+    },
+    {
+      "conversation_id": "case_03_profile_name_recall_after_noise",
+      "memory_type": "semantic",
+      "text": "Hôm nay tôi đang làm bài Lab 17."
+    },
+    {
+      "conversation_id": "case_03_profile_name_recall_after_noise",
+      "memory_type": "semantic",
+      "text": "Memory agent cần có router."
+    },
+    {
+      "conversation_id": "case_03_profile_name_recall_after_noise",
+      "memory_type": "semantic",
+      "text": "Tên tôi là gì?"
+    }
+  ],
+  "user_case_04_profile_programming_language": [
+    {
+      "conversation_id": "case_04_profile_programming_language",
+      "memory_type": "semantic",
+      "text": "My favorite programming language is Python."
+    },
+    {
+      "conversation_id": "case_04_profile_programming_language",
+      "memory_type": "semantic",
+      "text": "I am working on a benchmark script."
+    },
+    {
+      "conversation_id": "case_04_profile_programming_language",
+      "memory_type": "semantic",
+      "text": "What is my favorite programming language?"
+    }
+  ],
+  "user_case_05_episodic_previous_decision": [
+    {
+      "conversation_id": "case_05_episodic_previous_decision",
+      "memory_type": "semantic",
+      "text": "Kết luận: ta chọn JSON làm episodic memory để lưu project events."
+    },
+    {
+      "conversation_id": "case_05_episodic_previous_decision",
+      "memory_type": "semantic",
+      "text": "Sau đó ta sẽ viết benchmark."
+    },
+    {
+      "conversation_id": "case_05_episodic_previous_decision",
+      "memory_type": "semantic",
+      "text": "Hôm trước ta đã chọn gì cho episodic memory?"
+    }
+  ],
+  "user_case_06_episodic_debug_lesson": [
+    {
+      "conversation_id": "case_06_episodic_debug_lesson",
+      "memory_type": "semantic",
+      "text": "Bài học debug: khi chạy Docker Compose thì dùng docker service name thay vì localhost."
+    },
+    {
+      "conversation_id": "case_06_episodic_debug_lesson",
+      "memory_type": "semantic",
+      "text": "Ta đã hoàn tất phần debug này."
+    },
+    {
+      "conversation_id": "case_06_episodic_debug_lesson",
+      "memory_type": "semantic",
+      "text": "Previous debug lesson là gì?"
+    }
+  ],
+  "user_case_07_semantic_benchmark_retrieval": [
+    {
+      "conversation_id": "case_07_semantic_benchmark_retrieval",
+      "memory_type": "semantic",
+      "text": "Benchmark should compare agents with memory and without memory over 10 multi-turn conversations."
+    },
+    {
+      "conversation_id": "case_07_semantic_benchmark_retrieval",
+      "memory_type": "semantic",
+      "text": "The report should include response relevance and token efficiency."
+    },
+    {
+      "conversation_id": "case_07_semantic_benchmark_retrieval",
+      "memory_type": "semantic",
+      "text": "What should benchmark compare?"
+    }
+  ],
+  "user_case_08_semantic_token_budget": [
+    {
+      "conversation_id": "case_08_semantic_token_budget",
+      "memory_type": "semantic",
+      "text": "Token budget management should trim low-priority messages first and keep the current query."
+    },
+    {
+      "conversation_id": "case_08_semantic_token_budget",
+      "memory_type": "semantic",
+      "text": "Retrieved memory should be kept if relevant."
+    },
+    {
+      "conversation_id": "case_08_semantic_token_budget",
+      "memory_type": "semantic",
+      "text": "What should token budget management keep?"
+    }
+  ],
+  "user_case_09_recent_context": [
+    {
+      "conversation_id": "case_09_recent_context",
+      "memory_type": "semantic",
+      "text": "API chỉ làm nhiệm vụ transfer data."
+    },
+    {
+      "conversation_id": "case_09_recent_context",
+      "memory_type": "semantic",
+      "text": "Tôi vừa nói gì về API?"
+    }
+  ],
+  "user_case_10_full_stack_requirement": [
+    {
+      "conversation_id": "case_10_full_stack_requirement",
+      "memory_type": "semantic",
+      "text": "Full memory stack includes short-term, profile, episodic, and semantic memory."
+    },
+    {
+      "conversation_id": "case_10_full_stack_requirement",
+      "memory_type": "semantic",
+      "text": "Each backend must have separate save and retrieve logic."
+    },
+    {
+      "conversation_id": "case_10_full_stack_requirement",
+      "memory_type": "semantic",
+      "text": "What are the four memory types?"
+    }
+  ]
+}

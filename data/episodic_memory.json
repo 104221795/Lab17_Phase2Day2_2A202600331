@@ -1,0 +1,36 @@
+{
+  "user_case_05_episodic_previous_decision": [
+    {
+      "conversation_id": "case_05_episodic_previous_decision",
+      "memory_type": "episodic",
+      "text": "Kết luận: ta chọn JSON làm episodic memory để lưu project events.",
+      "outcome": "Không biết / insufficient context."
+    },
+    {
+      "conversation_id": "case_05_episodic_previous_decision",
+      "memory_type": "episodic",
+      "text": "Hôm trước ta đã chọn gì cho episodic memory?",
+      "outcome": "Kết luận: ta chọn JSON làm episodic memory để lưu project events."
+    }
+  ],
+  "user_case_06_episodic_debug_lesson": [
+    {
+      "conversation_id": "case_06_episodic_debug_lesson",
+      "memory_type": "episodic",
+      "text": "Bài học debug: khi chạy Docker Compose thì dùng docker service name thay vì localhost.",
+      "outcome": "Không biết / insufficient context."
+    },
+    {
+      "conversation_id": "case_06_episodic_debug_lesson",
+      "memory_type": "episodic",
+      "text": "Ta đã hoàn tất phần debug này.",
+      "outcome": "Bài học debug: khi chạy Docker Compose thì dùng docker service name thay vì localhost."
+    },
+    {
+      "conversation_id": "case_06_episodic_debug_lesson",
+      "memory_type": "episodic",
+      "text": "Previous debug lesson là gì?",
+      "outcome": "Bài học debug: khi chạy Docker Compose thì dùng docker service name thay vì localhost."
+    }
+  ]
+}
